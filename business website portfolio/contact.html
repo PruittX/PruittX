@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business-page</title>
+  <link rel="stylesheet" href="contact.css">
+ <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1>A Company Name</h1>
+  <p>Company Slogan</p>
+</div>
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="about.html">About</a>
+  <a class="active" class="right">Contact Us</a>
+</div>
+
+<a id="top"></a>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Please Fill Out Below to Contact us</p>
+    <p>Or Reach us at:</p>
+        <ul class="contact-ul">
+          <li style="color: blue;" class="contact-li">111-111-1111</li>
+          <li style="color: blue;" class="contact-li">email@example.com</li>
+        </ul>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Reason for Contacting..." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a style="color: blue;" class="back-to-top" href="#top">---Back to Top of Page---</a>
+</div>
+
+</body>
+</html>
